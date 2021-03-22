@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import camp1 from './camp1.png';
-import camp2 from './camp2.jpg';
+import camp2 from './camp2.png';
 import camp3 from './camp3.jpg';
 import camp4 from './camp4.jpg';
 import camp5 from './camp5.png';
@@ -43,9 +43,13 @@ const Campaign = () => {
             {SliderData.map((slide, index)=>{
                 return(
                     <>
-                    {index===current &&(
-                    <img src={slide.image} className="show" />
+                    {index===current &&(<>
+                    <img src={SliderData[index].image} className="show" />
+                    <img src={SliderData[(index+1)%length].image} className="show" />
+                    <img src={SliderData[(index+2)%length].image} className="show" />
+                    </>
                     )}
+                    
                     </>
                 );
             })}

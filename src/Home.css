@@ -1,5 +1,5 @@
 .content {
-    background-color: rgb(43, 37, 37);
+    background-color: rgb(236, 229, 229);
     width: 82%;
     height: 97vmin;
     border-radius: 15px;
@@ -39,10 +39,10 @@
 }
 
 .show{
-    margin-left: 5%;
-    margin-right: 5%;
-    width:40%;
-    height: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width:20%;
+    height: 70%;
     border-radius: 15px;
 }
 
@@ -53,7 +53,7 @@
     z-index: 10;
     user-select: none;
     cursor: pointer;
-    color:white;
+    color:black;
 }
 
 .right {
@@ -63,7 +63,7 @@
     z-index: 10;
     user-select: none;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .left:hover{
@@ -142,18 +142,18 @@
     height: 90%;
     left: 6%;
     padding-left: 3%;
-    color: #c70100;
+    color: #140635;
     font-family: 'Georgia',serif;
     
 
 }
 
 .icon {
-    color: white;
+    color:#140635 ;
     cursor: pointer;
 }
 .icon:hover {
-    color: #c70100;
+    color: #ec9191;
     cursor: pointer;
 }
 
@@ -173,7 +173,8 @@
     height: 7vmin;
     width: 7vmin;
     border-radius: 50%;
-    background-color: #cee5f7;
+    background-color: #b5c5d1;
+    border-color: #b5c5d1;
 }
 .btn1{
     margin-bottom: 3%;
@@ -181,22 +182,23 @@
     height: 7vmin;
     width: 7vmin;
     border-radius: 50%;
-    background-color: #cee5f7;
+    background-color: #b5c5d1;
+    border-color: #b5c5d1;
 }
 
 .request{
     width: 5vmin ;
     height: 5vmin;
-    color: #c70100;
+    color: black;
 }
 .h2{
     font-size: 3vmin;
-    padding-bottom: 7%;
+    padding-bottom: 3%;
     font-weight: bold;
 }
 
 .icon-name{
-   color: white;
+   color: black;
    font-size: 2vmin;
    padding-left: 1%;
    padding-bottom: 3%;

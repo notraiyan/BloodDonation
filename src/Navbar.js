@@ -20,7 +20,7 @@ function Navbar() {
     let match = useRouteMatch();
   return (
     <div class="sidebar">
-        <img src={logo} className="image" />
+        <img src={logo} className="image" /><br/>
         <Link className="nav" to="/home"><AiOutlineHome/> Home</Link>
         <Link className="nav" to="/profile"><CgProfile/> Profile</Link>
         <Link className="nav" to="/notifications"><IoNotificationsOutline/> Notifications</Link>

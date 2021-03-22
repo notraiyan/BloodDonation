@@ -42,8 +42,11 @@
       width: 100%;
       height: auto;
       position: relative;
+      text-align: center;
     }
-    .nav {float: left;}
+    .nav {float: left;
+      padding-left: 2.2%;
+      padding-right: 2.2%;}
     
   }
   
@@ -51,18 +54,23 @@
     .nav {
       text-align: center;
       float: none;
+
     }
   }
 .image {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
     height: 20vmin;
-    width: 80%;
+    width: 40%;
 }
 
 .donate {
+  margin-left: 10%;
+  margin-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
     height: 30vmin;
-    width:80%;
+    width:60%;
+    border: 2px solid #c70100;
+    border-radius: 25px;
 }
