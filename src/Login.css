@@ -1,0 +1,193 @@
+
+.Container {
+    height: 96vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+  
+.Container > div {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: calc(3vmin);
+}
+
+.item1 {
+    padding-top: 23%;
+    outline: none;
+}
+
+.item2 {
+    padding-top: 23%;
+    font-family: sans-serif;
+}
+
+.label{
+    padding-left: 5px;
+    text-align: left;
+    color: #686868;
+}
+
+input {
+    width:98%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    border-radius: 45px;
+    font-size: calc(3vmin);
+    text-align: left;
+    background-color: #edf0f5;
+    color: #686868;
+    Outline: none;
+}
+
+.form {
+    width: 50%;
+    padding-left: 25%;
+    align-content: center;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 7vmin;
+    font-weight: bold;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.input {
+    padding-top: 3%;
+    padding-bottom: 3vmin;
+}
+
+.Start {
+    cursor: pointer;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 45px;
+    font-size: calc(3vmin);
+    text-align: center;
+    background-color: #c70100;
+    color: #fff;
+    Outline: none;
+    text-decoration: none;
+  }
+  .Start:hover {
+    color: #e49c9c;
+    box-shadow: 2px 2px 20px #f1c4c4;
+  }
+  button.Start {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a5a7a9;
+    opacity: 1; /* Firefox */
+}
+
+a{
+    color:grey;
+}
+.no{
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.info{
+    text-align: center;
+    font-size: 4vmin;
+    font-family: monospace;
+    color: grey;
+}
+/*gender style */
+
+.option {
+    padding-bottom: 10%;
+}
+.input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  input[type=radio]:checked + label>img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px 3px #090;
+  }
+  
+  /* Stuff after this is only to make things more pretty */
+  input[type=radio] + label>img {
+    cursor: pointer;
+    border: 1px solid #444;
+    width: 150px;
+    height: 150px;
+    transition: 500ms all;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /*gender style end */
+
+  /*Blood Group style start*/
+
+.grid{
+    padding-bottom: 10%;
+
+}
+
+.box{
+    border-radius: 50% 50% 50% 50%;
+    height: 10vmin;
+    width: 10vmin;
+    border-color: #c70100 ;
+    background-color: white;
+    font-size: 3vmin;
+    color: #c70100;
+    outline: none;
+}
+
+.space{
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+.box:hover{
+    background-color: #c70100;
+    color:white;
+}
+
+.box:focus{
+    background-color: #c70100;
+    color:white;
+}
+
+/*end*/
+/*age*/
+.date {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 60%;
+  }
+
+  .lbl{
+      padding-right: 1vmin;
+  }
+
+  .age{
+      padding-top: 5vmin;
+      padding-bottom: 10vmin;
+  }
+
+  /*pic*/
+
+  .pic{
+      padding-top: 10vmin;
+      padding-bottom: 10vmin;
+  }
